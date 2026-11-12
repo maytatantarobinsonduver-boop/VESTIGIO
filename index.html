@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VESTIGIO · Reliquias contemporáneas</title>
+
+    <!-- SEO -->
+    <meta name="description" content="VESTIGIO · Reliquias contemporáneas. Piezas escultóricas que dialogan entre lo ancestral y lo contemporáneo. Envíos a todo el Perú y el mundo." />
+    <meta name="theme-color" content="#1a1a1a" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="VESTIGIO · Reliquias contemporáneas" />
+    <meta property="og:description" content="Un diálogo entre lo ancestral y lo contemporáneo. Ser un vestigio que camina." />
+    <meta property="og:image" content="https://i.imgur.com/90LrpOy.png" />
+    <meta property="og:url" content="https://vestigio.official" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://i.imgur.com/kGByOQT.png" />
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="pagina.css" />
+</head>
+<body>
+
+    <!-- ===== NAVEGACIÓN ===== -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo" aria-label="VESTIGIO - Inicio">
+                <img src="https://i.imgur.com/kGByOQT.png" alt="VESTIGIO" class="nav__logo-img" />
+            </a>
+            <ul class="nav__menu" id="navMenu">
+                <li><a href="#coleccion" class="nav__link">Colección</a></li>
+                <li><a href="#nosotros" class="nav__link">Sobre Nosotros</a></li>
+                <li><a href="#envios" class="nav__link">Envíos</a></li>
+                <li><a href="#contacto" class="nav__link">Contacto</a></li>
+            </ul>
+            <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ===== HERO CON VIDEO ===== -->
+        <section class="hero">
+            <video autoplay loop muted playsinline preload="metadata" class="hero__video"
+                   poster="https://i.imgur.com/90LrpOy.png">
+                <source src="https://www.image2url.com/r2/default/videos/1794429734318-a21cbab8-a2ce-46a5-90f6-e2d2a168a12a.mp4" type="video/mp4">
+                Tu navegador no soporta videos.
+            </video>
+            <div class="hero__overlay"></div>
+
+            <div class="hero__content container">
+                <h1 class="hero__title">VESTIGIO</h1>
+                <p class="hero__slogan">Reliquias contemporáneas.</p>
+                <p class="hero__text">Un diálogo entre lo ancestral y lo contemporáneo. Ser un vestigio que camina.</p>
+                <a href="#coleccion" class="button button--outline">Explorar Colección</a>
+            </div>
+        </section>
+
+        <!-- ===== COLECCIÓN ===== -->
+        <section class="collection section" id="coleccion">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__subtitle">Anámnesis Collection</span>
+                    <h2>El acto de recordar</h2>
+                    <p class="section__desc">El acto de recordar aquello que el alma siempre ha conocido. Cuatro objetos representan el tránsito entre el nacimiento, el conocimiento superior, la encarnación y la reunificación de lo humano con lo universal.</p>
+                </div>
+
+                <div class="collection__grid">
+                    <!-- Producto 1 -->
+                    <div class="product-card">
+                        <div class="product-card__image-wrapper">
+                            <img src="https://i.imgur.com/dtMmZTJ.png" alt="Cartera ANÁMNESIS · pieza escultórica en piel" class="product-card__image" loading="lazy" />
+                        </div>
+                        <div class="product-card__info">
+                            <h3 class="product-card__title">Cartera ANÁMNESIS</h3>
+                            <p class="product-card__price">$ 500 USD</p>
+                            <p class="product-card__desc">Pieza escultórica. Un vestigio físico de una memoria que nunca desapareció por completo.</p>
+                            <button class="button button--primary add-to-cart" data-name="Cartera ANÁMNESIS" data-price="500">Adquirir</button>
+                        </div>
+                    </div>
+
+                    <!-- Producto 2 -->
+                    <div class="product-card">
+                        <div class="product-card__image-wrapper">
+                            <img src="https://i.imgur.com/DfPVTQk.png" alt="Embrague ALMA · estructura metálica y piel" class="product-card__image" loading="lazy" />
+                        </div>
+                        <div class="product-card__info">
+                            <h3 class="product-card__title">Embrague ALMA</h3>
+                            <p class="product-card__price">$ 500 USD</p>
+                            <p class="product-card__desc">La encarnación de lo humano. Una estructura metálica fusionada con piel texturizada.</p>
+                            <button class="button button--primary add-to-cart" data-name="Embrague ALMA" data-price="500">Adquirir</button>
+                        </div>
+                    </div>
+
+                    <!-- Producto 3 -->
+                    <div class="product-card">
+                        <div class="product-card__image-wrapper">
+                            <img src="https://i.imgur.com/iZL3QtL.png" alt="Embrague TERRA · conexión con la tierra" class="product-card__image" loading="lazy" />
+                        </div>
+                        <div class="product-card__info">
+                            <h3 class="product-card__title">Embrague TERRA</h3>
+                            <p class="product-card__price">$ 500 USD</p>
+                            <p class="product-card__desc">El nacimiento. La conexión más pura con la tierra y la materia prima.</p>
+                            <button class="button button--primary add-to-cart" data-name="Embrague TERRA" data-price="500">Adquirir</button>
+                        </div>
+                    </div>
+
+                    <!-- Producto 4 -->
+                    <div class="product-card">
+                        <div class="product-card__image-wrapper">
+                            <img src="https://i.imgur.com/6EJuAvA.png" alt="Cartera ETERNA · conocimiento superior" class="product-card__image" loading="lazy" />
+                        </div>
+                        <div class="product-card__info">
+                            <h3 class="product-card__title">Cartera ETERNA</h3>
+                            <p class="product-card__price">$ 500 USD</p>
+                            <p class="product-card__desc">El conocimiento superior. Un vestigio eterno de lo que fuimos, somos y podemos llegar a ser.</p>
+                            <button class="button button--primary add-to-cart" data-name="Cartera ETERNA" data-price="500">Adquirir</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SOBRE NOSOTROS ===== -->
+        <section class="about section" id="nosotros">
+            <div class="container about__container">
+                <div class="about__image">
+                    <img src="https://i.imgur.com/90LrpOy.png" alt="Vestigio · Sobre Nosotros" loading="lazy" />
+                </div>
+                <div class="about__text">
+                    <span class="section__subtitle">Nuestra Historia</span>
+                    <h2>Ser el eco de lo que fuimos</h2>
+                    <p>Vestigio es memoria, símbolo y posibilidad. Nace para hablar desde la historia y transmitir su belleza e identidad en un diálogo constante entre lo ancestral y lo contemporáneo.</p>
+                    <p>Construimos comunidad desde la raíz, ofreciendo una nueva forma de ver el lujo desde el sur del mundo: con piel, con alma y con historia.</p>
+                    <p>Buscamos ser el eco de lo que fuimos y la forma de lo que aún seremos. Ser un vestigio que camina.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ENVÍOS ===== -->
+        <section class="shipping section" id="envios">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__subtitle">Envíos</span>
+                    <h2>Logística y Entrega</h2>
+                </div>
+                <div class="shipping__grid">
+                    <div class="shipping__item">
+                        <i class="fas fa-box"></i>
+                        <h3>Envíos Nacionales</h3>
+                        <p>Realizamos envíos a todo el Perú a través de Olva Courier y Shalom.</p>
+                    </div>
+                    <div class="shipping__item">
+                        <i class="fas fa-globe-americas"></i>
+                        <h3>Envíos Internacionales</h3>
+                        <p>Enviamos a todo el mundo vía DHL Express. Costos calculados al finalizar la compra.</p>
+                    </div>
+                    <div class="shipping__item">
+                        <i class="fas fa-clock"></i>
+                        <h3>Tiempos de Entrega</h3>
+                        <p>Lima: 24-48 horas. Provincias: 3-5 días hábiles. Internacional: 5-10 días hábiles.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACTO ===== -->
+        <section class="contact section" id="contacto">
+            <div class="container contact__container">
+                <div class="contact__info">
+                    <span class="section__subtitle">Contacto</span>
+                    <h2>Hablemos</h2>
+                    <p>Para consultas sobre piezas, encargos personalizados o envíos internacionales.</p>
+                    <div class="contact__links">
+                        <a href="https://wa.me/34653263104" target="_blank" rel="noopener" class="contact__link"><i class="fab fa-whatsapp"></i> +34 653 26 31 04</a>
+                        <a href="https://instagram.com/Vestigio.official" target="_blank" rel="noopener" class="contact__link"><i class="fab fa-instagram"></i> @Vestigio.official</a>
+                    </div>
+                </div>
+                <div class="contact__form-wrapper">
+                    <form id="contactForm" class="contact__form" novalidate>
+                        <input type="text" id="contactName" placeholder="Tu nombre completo" required />
+                        <input type="email" id="contactEmail" placeholder="Tu correo electrónico" required />
+                        <textarea id="contactMessage" placeholder="Tu mensaje..." rows="4" required></textarea>
+                        <p class="form-error" id="contactError"></p>
+                        <button type="submit" class="button button--primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <img src="https://i.imgur.com/kGByOQT.png" alt="VESTIGIO" class="footer__logo" />
+            <p class="footer__slogan">Reliquias contemporáneas.</p>
+            <ul class="footer__links">
+                <li><a href="#privacidad">Política de Privacidad</a></li>
+                <li><a href="#terminos">Términos y Condiciones</a></li>
+                <li><a href="#envios">Envíos y Devoluciones</a></li>
+            </ul>
+            <p class="footer__copy">&copy; 2026 VESTIGIO. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- ===== BOTÓN VOLVER ARRIBA ===== -->
+    <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- ===== CARRITO FLOTANTE ===== -->
+    <button class="cart-icon" id="cartIcon" aria-label="Abrir bolsa de compras">
+        <i class="fas fa-shopping-bag"></i>
+        <span class="cart-count" id="cartCount">0</span>
+    </button>
+
+    <!-- ===== MODAL CHECKOUT ===== -->
+    <div class="modal-checkout" id="checkoutModal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
+        <div class="modal-checkout__content">
+            <button class="modal-checkout__close" id="closeCheckout" aria-label="Cerrar">&times;</button>
+            <h2 id="checkoutTitle">Finalizar Compra</h2>
+
+            <div class="checkout-summary" id="checkoutSummary"></div>
+
+            <form id="checkoutForm" class="checkout-form" novalidate>
+                <div class="form-group">
+                    <label>Datos personales</label>
+                    <input type="text" id="buyerName" placeholder="Tu nombre completo" required />
+                    <input type="email" id="buyerEmail" placeholder="Tu correo electrónico" required />
+                    <input type="email" id="buyerEmailConfirm" placeholder="Confirma tu correo" required />
+                </div>
+
+                <div class="form-group">
+                    <label>Método de pago</label>
+                    <div class="payment-methods">
+                        <label class="payment-method">
+                            <input type="radio" name="payment" value="Tarjeta" checked />
+                            <span><i class="fas fa-credit-card"></i> Tarjeta de Crédito/Débito</span>
+                        </label>
+                        <label class="payment-method">
+                            <input type="radio" name="payment" value="Yape" />
+                            <span><i class="fas fa-mobile-alt"></i> Yape</span>
+                        </label>
+                        <label class="payment-method">
+                            <input type="radio" name="payment" value="Plin" />
+                            <span><i class="fas fa-mobile-alt"></i> Plin</span>
+                        </label>
+                        <label class="payment-method">
+                            <input type="radio" name="payment" value="PayPal" />
+                            <span><i class="fab fa-paypal"></i> PayPal</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div id="cardDetails" class="form-group card-details">
+                    <input type="text" id="cardNumber" placeholder="Número de tarjeta" maxlength="19" inputmode="numeric" autocomplete="cc-number" />
+                    <div class="form-row">
+                        <input type="text" id="cardExpiry" placeholder="MM/AA" maxlength="5" inputmode="numeric" autocomplete="cc-exp" />
+                        <input type="text" id="cardCvv" placeholder="CVV" maxlength="4" inputmode="numeric" autocomplete="cc-csc" />
+                    </div>
+                    <input type="text" id="cardHolder" placeholder="Nombre del titular" autocomplete="cc-name" />
+                </div>
+
+                <div class="form-group" id="otherPaymentInfo" style="display:none; text-align:center; padding:15px; background:#f9f9f9; border-radius:8px;">
+                    <p style="margin:0; font-size:0.9rem; color:#555;">Serás redirigido a la pasarela de pago correspondiente.</p>
+                </div>
+
+                <p class="form-error" id="checkoutError"></p>
+                <button type="submit" class="button button--primary" style="width:100%; margin-top:15px;">Comprar ahora</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- ===== MODAL GRACIAS ===== -->
+    <div class="modal-thanks" id="thanksModal" role="dialog" aria-modal="true">
+        <div class="modal-thanks__content">
+            <i class="fas fa-check-circle"></i>
+            <h2>¡Gracias por tu compra!</h2>
+            <p id="thanksMessage"></p>
+            <button class="button button--primary" id="closeThanks">Cerrar</button>
+        </div>
+    </div>
+
+    <!-- ===== WHATSAPP FLOTANTE ===== -->
+    <a href="https://wa.me/34653263104?text=Hola%2C%20quiero%20info%20sobre%20VESTIGIO" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- ===== JS ===== -->
+    <script src="pagina.js"></script>
+</body>
+</html>
